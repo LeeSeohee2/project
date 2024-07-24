@@ -11,5 +11,10 @@ public class TestController {
 		public String test() {
 			return "one";
 		}
+		
+		@RequestMapping("/test2")
+		public String test2() {
+			return "scond";
+		}
 	
 }
